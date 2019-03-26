@@ -29,9 +29,16 @@ a.right {
   text-decoration: none;
 }
 
+.pictures {
+  height: 80px;
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .top {
-  background-color: #085add;
-  color: white;
+  background-color: #5a095a;
   border-radius: 5px;
   padding: 5px;
 }
@@ -48,6 +55,8 @@ a.right {
 
 .bottom {
   padding: 10px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 
