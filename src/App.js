@@ -2,25 +2,20 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const cardOneText = 'Lorem';
+const cardTwoText = 'Ipsum';
+const cardThreeText = 'Nunc';
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <>
+        <nav>
+          <a className="left" href="#acme">Acme Marketing</a>
+          <a className="right" href="#contact">Contact</a>
+          <a className="right" href="#social">Social</a>
+        </nav>
+      </>
     );
   }
 }
