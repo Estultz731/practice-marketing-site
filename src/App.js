@@ -15,6 +15,28 @@ class App extends Component {
           <a className="right" href="#contact">Contact</a>
           <a className="right" href="#social">Social</a>
         </nav>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 col-lg-4">
+              <div className="card">
+                <div className="top"><img className="pictures" src="./images/Dudes Typing.jpg" /></div>
+                <div className="bottom">{cardOneText}</div>
+              </div>
+            </div>
+            <div className="col-sm-12 col-lg-4">
+              <div className="card">
+                <div className="top"><img className="pictures" src="./images/Wall O Stickies.jpg" /></div>
+                <div className="bottom">{cardTwoText}</div>
+              </div>
+            </div>
+            <div className="col-sm-12 col-lg-4">
+              <div className="card">
+                <div className="top"><img className="pictures" src="./images/Yoko Ono.jpg" /></div>
+                <div className="bottom">{cardThreeText}</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </>
     );
   }
